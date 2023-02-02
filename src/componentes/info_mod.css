@@ -1,0 +1,57 @@
+.background_info{
+	background-image: url(/public/img/pag3.png);
+	background-repeat: no-repeat;
+	background-size: 100% 20%;
+	font-family: var(--fonte-principal);
+}
+
+.div__info{
+	margin-right: 22%;
+	margin-left: 19%;
+}
+
+.link__info{
+	padding-top: 1.5em;
+
+}
+
+.titulo__bg{
+	display: inline-grid;
+	align-items: center;
+	font-size: 25px;
+	color: white;
+	margin-top: 0.5em;
+}
+
+.titulo__bg p{
+	font-size: 20px;
+	margin-top: -0.5em;
+}
+
+.info__fonte{
+	text-align: center;
+	color: var(--vermelho-footer);
+	font-size: 25px;
+	padding-top: 1em;
+}
+
+.fonte__vermelha{
+	text-align: center;
+	color: var(--vermelho-footer);
+}
+
+.recursos__info p{
+	text-align: center;
+}
+
+.lista__info{
+	display: flex;
+	justify-content: center;
+	column-gap: 5em;
+}
+
+.lista__info li{
+	display: flex;
+	align-items: center;
+	column-gap: 1em;
+}

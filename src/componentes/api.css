@@ -1,0 +1,142 @@
+:root{
+	--vermelho-fonte: #F6303F;
+}
+
+.mod__edu{
+	font-family: var(--fonte-principal);
+	color: var(--vermelho-footer);
+	font-size: 30px;
+	text-align: center;
+}
+
+.tab__api{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin-right: 46em;
+	column-gap: 2em;
+	color: var(--cor-lista);
+	font-family: var(--fonte-principal);
+	font-size: 14px;
+
+}
+
+.div__container{
+	display: flex;
+	justify-content: center;
+}
+
+.imagem_cursos_lista{
+	display: flex;
+	align-items: center;
+}
+
+.imagem_cursos{
+	width: 120px;
+	height: 120px;
+	border-radius: 20px;
+}
+
+.titulo{
+	font-family: var(--fonte-principal);
+	font-size: 20px;
+}
+
+.parceiros__api{
+	font-size: 13px;
+	font-family: var(--fonte-principal);
+	color: var(--vermelho-fonte);
+}
+
+.duracao{
+	font-size: 16.75px;
+	font-family: var(--fonte-principal);
+}
+
+.matriculados{
+	font-size: 16.75px;
+	font-family: var(--fonte-principal);
+}
+
+.lista__api{
+	display: flex;
+	list-style-type: none;
+	background-color: var(--cinza-claro);
+	border-radius: 20px;
+	column-gap: 1em;
+	width: 72em;
+	height: 9em;
+}
+
+.lista__container{
+	vertical-align: middle;
+}
+
+.titulo__parceiros{
+	width: 274px;
+}
+
+.matriculados__lista{
+	display: flex;
+	align-items: center;
+	column-gap: 1em;
+	margin-left: 1em;
+}
+
+.duracao__lista{
+	display: flex;
+	align-items: center;
+	column-gap: 1em;
+	margin-left: 1em;
+}
+
+.matriculados__lista h2{
+	font-weight: 400;
+}
+
+.duracao__lista h2{
+	font-weight: 400;
+}
+
+.botao__modulo{
+	font-size: 16px;
+	width: 178px;
+	height: 40px;
+	background-color: var(--cor-inicio);
+	border-radius: 20px;
+	font-family: var(--fonte-principal);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-color: var(--cor-inicio);
+}
+
+.alinha__botao{
+	display: flex;
+	align-items: center;
+}
+
+.ver__mais{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	background-color: var(--cor-inicio);
+	width: 350px;
+	height: 50px;
+	border-color: var(--cor-inicio);
+	margin-top: 3em;
+	margin-bottom: 5em;
+}
+
+.ver__mais a{
+	color: white;
+	font-family: var(--fonte-principal);
+	font-size: 20px;
+}
+
+.ver__mais__esp{
+	display: flex;
+	justify-content: center;
+}

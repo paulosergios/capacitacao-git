@@ -1,0 +1,39 @@
+ul{
+	list-style-type: none;
+}
+
+.meio__par{
+	margin-right: 17%;
+	margin-left: 17%;
+}
+
+.parceiros_org{
+	display: inline-grid;
+	padding: 1em;
+}
+
+.imagem_parceiros{
+	display: flex;
+	width: 320px;
+	height: 180px;
+}
+
+.nossos__par{
+	color: var(--vermelho-footer);
+	font-size: 27px;
+	font-family: var(--fonte-principal);
+}
+
+.cards__par{
+	display: block;
+}
+
+.texto__parceiros{
+	display: flex;
+	width: 320px;
+	font-family: var(--fonte-principal);
+	font-size: 15px;
+	text-align: center;
+	text-decoration: overline;
+	text-decoration-color: orangered;
+}

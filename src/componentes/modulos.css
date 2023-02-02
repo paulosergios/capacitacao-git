@@ -1,0 +1,73 @@
+.meio__mod{
+	margin-right: 17%;
+	margin-left: 17%;
+}
+
+.mod__edu__mod{
+	display: flex;
+	justify-content: center;
+	font-family: var(--fonte-principal);
+	font-size: 30px;
+	color: var(--vermelho-footer);
+}
+
+.imagem_cursos_mod{
+	display: flex;
+	width: 350px;
+	height: 200px;
+	border-radius: 20px;
+}
+
+.parceiros__api{
+	display: flex;
+	width: 350px;
+}
+
+.link__mod{
+	padding-left: 0;
+	padding-top: 1em;
+	font-family: var(--fonte-principal);
+	color: var(--cinza);
+}
+
+.modulos__mod{
+	color: var(--preto);
+}
+
+.titulo__parceiros__mod h2{
+	width: 350px;
+}
+
+.tab__api__mod{
+	display: inline-flex;
+	justify-content: center;
+	font-family: var(--fonte-principal);
+	font-size: 11px;
+	column-gap: 5.4em;
+	padding-left: 0px;
+}
+
+.div__container__mod{
+	display: inline-grid;
+	margin-right: 1.6em;
+}
+
+.titulo__mod{
+	font-family: var(--fonte-principal);
+	font-size: 15px;
+	width: 350px;
+}
+
+.matriculados__mod{
+	display: flex;
+	align-items: center;
+	column-gap: 1em;
+	margin-bottom: 0.3em;
+}
+
+.resumo{
+	font-family: var(--fonte-principal);
+	font-size: 12px;
+	display: flex;
+	width: 350px;
+}

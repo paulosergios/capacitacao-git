@@ -1,0 +1,51 @@
+:root{
+	--fonte-principal: 'Montserrat';
+	--cor-inicio: #707070;
+	--cor-lista: #2F2E41;
+	--vermelho-footer: #D2202C;
+	--cinza-footer1: #323237;
+	--base: #424146;
+	--branco: #FFFFFF;
+	--cinza-claro: #F5F5F7;
+	--cinza-opaco: #757575;
+}
+
+.lista__inferior{
+	width: 75em;
+	height: 210px;
+	display: flex;
+	background-color: var(--cinza-claro);
+	border-radius: 20px;
+	margin: auto;
+
+}
+
+.titulo__vermelho{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 30px;
+	color: var(--vermelho-footer);
+	max-width: 100%;
+	font-family: var(--fonte-principal);
+}
+
+.lista__inferior a{
+	color: var(--cor-inicio);
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	width: 242px;
+	font-family: var(--fonte-principal);
+}
+
+.lista__inferior h3{
+	justify-content: center;
+	display: flex;
+	font-family: var(--fonte-principal);
+}
+
+.remove__ponto{
+	list-style-type: none;
+}
